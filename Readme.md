@@ -12,8 +12,18 @@
 
 ## 解决方案概述
 
-本赛题初赛给出了---个企业，企业基本信息数据(1entbase.csv)、变更数据(2alter.csv)、分支机构数据(3branch.csv)、投资数据(4invest.csv)、权利数据(5right.csv)、项目数据(6project.csv)、被执行数据(7lawsuit.csv)、失信数据(8breakfaith.csv)、招聘数据(9recruit.csv)。我们分析了每个表的数据特征和信息，在每一个表内构建特征，利用xgboost、gbdt、dart等模型对数据进行训练和预测。
+#### 本赛题初赛提供了---个企业相关信息，具体信息如下：
+  - 企业基本信息数据(1entbase.csv)
+  - 变更数据(2alter.csv)
+  - 分支机构数据(3branch.csv)
+  - 投资数据(4invest.csv)
+  - 权利数据(5right.csv)
+  - 项目数据(6project.csv)
+  - 被执行数据(7lawsuit.csv)
+  - 失信数据(8breakfaith.csv)
+  - 招聘数据(9recruit.csv)
 
+我们分析了每个表的数据特征和信息，在每一个表内构建特征，利用xgboost、gbdt、dart等模型对数据进行训练和预测。
 PS:复赛中新增了企业资质(10qualification.csv)
 
 ## 特征工程
