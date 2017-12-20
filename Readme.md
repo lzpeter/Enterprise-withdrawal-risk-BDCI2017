@@ -24,7 +24,6 @@
   - 招聘数据(9recruit.csv)
 
 我们分析了每个表的数据特征和信息，在每一个表内构建特征，利用xgboost、gbdt、dart等模型对数据进行训练和预测。
-
 PS:复赛中新增了企业资质(10qualification.csv)
 
 ## 特征工程
